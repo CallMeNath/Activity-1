@@ -1,0 +1,8 @@
+git init 
+git add .
+git commit -m 'Initial commit'
+git checkout -b MENDEZ_B1
+git checkout -b MENDEZ_B2
+git checkout -b MENDEZ_B3
+git checkout -b MENDEZ_B4
+
