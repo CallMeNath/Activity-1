@@ -1,8 +1,29 @@
+#step 1: Initialize repository
 git init 
 git add .
-git commit -m 'Initial commit'
+	git commit -m 'Initial commit'
+#Step 2: Create branches
 git checkout -b MENDEZ_B1
 git checkout -b MENDEZ_B2
 git checkout -b MENDEZ_B3
 git checkout -b MENDEZ_B4
+#Step 3: Switch Between Branches
+git checkout MENDEZ_B1
+git checkout MENDEZ_B2
+git checkout MENDEZ_B3
+git checkout MENDEZ_B4
+git checkout main
+#Step 4: Stage and commit changes
+git add <filename>
+git commit -m "Your message"
+#Step 5: Connect to Github Remote
+git remote add origin https://github.com/CallMeNath/Activity-1.git
+git remote -v
+git remote set-url origin https://github.com/CallMeNath/Activity-1.git
+#Step 6: Push Branches to github
+git push -u origin main
+git push origin MENDEZ_B1
+git push origin MENDEZ_B2
+git push origin MENDEZ_B3
+git push origin MENDEZ_B4
 
